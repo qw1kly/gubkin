@@ -52,7 +52,8 @@ body{
  overflow: hidden; /* Скрывает контент, выходящий за границы элемента */
   /* или */
   overflow-y: hidden; 
- 
+ position: relative;
+    top: 20px;
 }
 html{
   height: 100%;
