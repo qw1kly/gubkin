@@ -277,9 +277,10 @@ if (backButton.mount.isAvailable()) {
   }
 })
 document.getElementById("menubarpiker").addEventListener('click', (e) => {
-  hapticFeedback.impactOccurred('soft');
 
   if (e.target.id == "plusdiv") {
+      hapticFeedback.impactOccurred('soft');
+
     let objj = e.target.getAttribute("data");
     e.target.classList.add("bijo");
     setTimeout(() => {
@@ -507,10 +508,10 @@ if (backButton.mount.isAvailable()) {
 })
 
 document.getElementById("basketitems").addEventListener("click", (e) => {
-    hapticFeedback.impactOccurred('soft');
+    
 
   if (e.target.id == "minusmg") {
-
+      hapticFeedback.impactOccurred('soft');
       let obsf = e.target.getAttribute("data");
       let allclases = document.getElementsByClassName("countofcurrentitem");
       for (let i = 0; i < allclases.length; i++) {
@@ -535,6 +536,7 @@ document.getElementById("basketitems").addEventListener("click", (e) => {
       }
   }
   if (e.target.id == "plusmg") {
+    hapticFeedback.impactOccurred('soft');
     let obsf = e.target.getAttribute("data");
       let allclases = document.getElementsByClassName("countofcurrentitem");
       for (let i = 0; i < allclases.length; i++) {
