@@ -385,22 +385,22 @@ color: #FFFFFF;
 }
 #point1{
   position: absolute;
-  width: 116px;
-  left: calc(50% - 116px / 2);
+  width: 150px;
+  left: calc(50% - 150px / 2);
   top: 15px;
 }
 #point2{
   position: absolute;
-  width: 132px;
-  left: calc(50% - 132px / 2);
+  width: 150px;
+  left: calc(50% - 150px / 2);
   top: 60px;
 }
 #point3{
   position: absolute;
-  width: 116px;
   top: 105px;
-  left: calc(50% - 116px / 2);
-}
+
+  width: 150px;
+  left: calc(50% - 150px / 2);}
 #div1{
   width: 150px;
   height: 1px;
@@ -831,7 +831,7 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
-line-height: 38px;
+line-height: 34px;
 
 color: #FFFFFF;
 
